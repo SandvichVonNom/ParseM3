@@ -2,10 +2,10 @@
   xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
   <modelVersion>4.0.0</modelVersion>
   <groupId>com.sandvichvonnom.parsem3</groupId>
-  <artifactId>parsem3</artifactId>
+  <artifactId>parsem3-core</artifactId>
   <packaging>jar</packaging>
   <version>1.0-SNAPSHOT</version>
-  <name>parsem3</name>
+  <name>parsem3-core</name>
   <url>http://maven.apache.org</url>
   <dependencies>
     <dependency>
