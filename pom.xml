@@ -3,8 +3,12 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>com.sandvichvonnom.parsem3</groupId>
   <artifactId>parsem3</artifactId>
-  <packaging>jar</packaging>
+  <packaging>pom</packaging>
   <version>1.0-SNAPSHOT</version>
+  <modules>
+    <module>backend</module>
+    <module>core</module>
+  </modules>
   <name>parsem3</name>
   <url>http://maven.apache.org</url>
   <dependencies>

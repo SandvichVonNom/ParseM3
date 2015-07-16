@@ -4,7 +4,7 @@ package com.sandvichvonnom.parsem3;
  * Hello world!
  *
  */
-public class App 
+public class AppCore
 {
     public static void main( String[] args )
     {
