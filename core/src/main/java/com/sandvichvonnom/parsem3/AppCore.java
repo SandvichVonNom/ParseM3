@@ -13,7 +13,7 @@ public class AppCore
         TestClass1 test1 = new TestClass1();
 //        com.sandvichvonnom.parsem3.TestClass1 test1 = new com.sandvichvonnom.parsem3.TestClass1();
 
-        test1.setName("AppCore");
+        test1.setName("AppCoreCore");
 
         test1.sayName();
 
