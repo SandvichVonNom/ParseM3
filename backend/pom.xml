@@ -2,12 +2,14 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0"
          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
-    <parent>
-        <artifactId>parsem3</artifactId>
-        <groupId>com.sandvichvonnom.parsem3</groupId>
-        <version>1.0-SNAPSHOT</version>
-    </parent>
+
     <modelVersion>4.0.0</modelVersion>
+
+    <groupId>com.sandvichvonnom.parsem3</groupId>
+    <packaging>jar</packaging>
+    <version>1.0-SNAPSHOT</version>
+    <name>parsem3-backend</name>
+    <url>http://maven.apache.org</url>
 
     <artifactId>parsem3-backend</artifactId>
 
