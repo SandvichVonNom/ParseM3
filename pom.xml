@@ -23,4 +23,12 @@
     </dependency>
   </dependencies>
 
+  <distributionManagement>
+    <snapshotRepository>
+      <id>artifactory.homenet</id>
+      <name>artifactory.homenet-snapshots</name>
+      <url>http://artifactory.homenet:8081/artifactory/libs-snapshot-local</url>
+    </snapshotRepository>
+  </distributionManagement>
+
 </project>
