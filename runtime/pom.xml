@@ -9,12 +9,12 @@
     <packaging>jar</packaging>
     <version>1.0-SNAPSHOT</version>
 
-    <artifactId>ParseM3-Backend</artifactId>
+    <artifactId>ParseM3-Runtime</artifactId>
 
     <dependencies>
         <dependency>
             <groupId>com.sandvichvonnom.parsem3</groupId>
-            <artifactId>ParseM3-Core</artifactId>
+            <artifactId>ParseM3-Backend</artifactId>
             <version>1.0-SNAPSHOT</version>
         </dependency>
     </dependencies>
