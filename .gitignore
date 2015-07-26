@@ -8,3 +8,7 @@ parsem3.sublime*
 **.iml
 **/target/
 **/*.idea
+**/.classpath
+**/.project
+**/.settings
+

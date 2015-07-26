@@ -8,6 +8,38 @@
     <version>1.0-SNAPSHOT</version>
 
     <artifactId>ParseM3-Core</artifactId>
+    
+	<build>
+		<plugins>
+			<plugin>
+				<artifactId>maven-jar-plugin</artifactId>
+				<configuration>
+					<classifier>${envClassifier}</classifier>
+				</configuration>
+			</plugin>
+		</plugins>
+	</build>
+	
+	<profiles>
+		<profile>
+			<id>jdk18</id>
+			<activation>
+				<jdk>1.8</jdk>
+			</activation>
+			<properties>
+				<envClassifier>jdk18</envClassifier>
+			</properties>
+		</profile>
+		<profile>
+			<id>jdk17</id>
+			<activation>
+				<jdk>1.7</jdk>
+			</activation>
+			<properties>
+				<envClassifier>jdk17</envClassifier>
+			</properties>
+		</profile>
+	</profiles>
 
     <dependencies>
         <dependency>
